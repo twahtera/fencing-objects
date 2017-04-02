@@ -1,0 +1,7 @@
+* 3d objects for fencing
+  This repository contains 3d-printable tools and parts useful for
+  foil fencing.
+
+
+
+  
