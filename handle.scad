@@ -1,10 +1,3 @@
-/* module rounded_cylinder(x, y, h, r) { */
-/*      minkowski() { */
-/*           cube([x-r*2,y-r*2,h]); */
-/*           cylinder(r=r, h=1); */
-/*      } */
-/* } */
-
 module rounded_cylinder(x, y, h, r) {
      linear_extrude(height=h) {
           translate([-(x-r)/2, -(y-r)/2]) {
