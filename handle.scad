@@ -67,12 +67,12 @@ module palm_grip() {
      /*      sphere(3); */
      /* } */
           translate([-10, 7, 0])sphere(12);
-          translate([30, 0, 0])sphere(16);
-          #translate([27, -12, 0])sphere(12);
+          translate([35, 0, 0])sphere(16);
+          #translate([45, -15, 5])sphere(12);
      
      }
 }
-//#palm_grip();
+*palm_grip();
 difference() {
      union() {
           union() {
